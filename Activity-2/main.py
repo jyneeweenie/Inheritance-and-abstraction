@@ -5,7 +5,7 @@ class Person:
     def printname(self):
         print(self.firstname, self.lastname)
 class Student(Person):
-    def __init__(self, fname, lname):
+    def __init__(self, fname, lname, year):
         super().__init__(fname, lname)
         self.graduationyear = year
 x = Student("Joey", "King", 2021)
